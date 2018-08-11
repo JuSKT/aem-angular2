@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <typeSelection
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Input Field type"
+            fieldLabel="Input Field type"
+            name="./typeSelection"
+            type="radio"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    text="text"
+                    value="text"/>
+                <number
+                    jcr:primaryType="nt:unstructured"
+                    text="number"
+                    value="number"/>
+            </options>
+        </typeSelection>
+        <placeholder
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field Placeholder"
+            name="./placeholder"
+            xtype="textfield"/>
+        <ngModel
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field model"
+            name="./ngModel"
+            xtype="textfield"/>
+        <id
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field id"
+            name="./id"
+            xtype="textfield"/>
+        <class
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field class"
+            name="./class"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

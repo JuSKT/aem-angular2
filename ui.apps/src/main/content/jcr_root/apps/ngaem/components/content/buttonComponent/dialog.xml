@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <typeSelection
+            jcr:primaryType="cq:Widget"
+            fieldDescription="Select the button type"
+            fieldLabel="Select the button type"
+            name="./typeSelection"
+            type="radio"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <submit
+                    jcr:primaryType="nt:unstructured"
+                    text="Submit Button"
+                    value="submit"/>
+                <link
+                    jcr:primaryType="nt:unstructured"
+                    text="Link Button"
+                    value="link"/>
+            </options>
+        </typeSelection>
+        <buttonText
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Button Text"
+            name="./buttonText"
+            xtype="textfield"/>
+        <ngClick
+            jcr:primaryType="cq:Widget"
+            fieldLabel="ngClick function"
+            name="./ngClick"
+            xtype="textfield"/>
+        <id
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field id"
+            name="./id"
+            xtype="textfield"/>
+        <class
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Input Field class"
+            name="./class"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

@@ -11,6 +11,8 @@ import {TaskComponent} from "./task/task.component";
 import {TextAreaComponent} from "./text-area/text-area.component";
 import {SearchComponent} from "./ng-search/search.component";
 import {IpLocationComponent} from "./ip-location/ip-location.component";
+import {InputFieldComponent} from "./input-field/input-field.component";
+import {ButtonComponent} from "./buttonComponent/button.component";
 /**
  * Make sure that this list is updated as and when a new Angular2 component in added to NgModule's entryComponents attribute.
  */
@@ -20,7 +22,9 @@ const componentList = {
     'about': AboutComponent,
     'task': TaskListComponent,
     'search': SearchComponent,
-    'ip-location': IpLocationComponent
+    'ip-location': IpLocationComponent,
+    'input-field': InputFieldComponent,
+    'button-component': ButtonComponent
 };
 
 /**

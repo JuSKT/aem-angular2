@@ -1,0 +1,9 @@
+<h1>Button component</h1>
+<div data-sly-test="${wcmmode.edit || wcmmode.preview}">
+	<!-- Render HTML file in EDIT and PREVIEW mode-->
+    <section data-sly-include="input.html"></section> 
+</div>
+<div data-sly-test="${!wcmmode.edit && !wcmmode.preview}">
+	<!-- Render by Angular 2 component in wcmmode=DISABLED mode-->
+    <button-component type="${properties.typeSelection}" buttonText="${properties.buttonText}" id="${properties.id}" ngClick="${properties.ngClick}" class="${properties.class}"></button-component>
+</div>
