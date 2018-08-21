@@ -13,6 +13,8 @@ import {SearchComponent} from "./ng-search/search.component";
 import {IpLocationComponent} from "./ip-location/ip-location.component";
 import {InputFieldComponent} from "./input-field/input-field.component";
 import {ButtonComponent} from "./buttonComponent/button.component";
+import {LoginComponent} from "./login/login.component";
+import {UserDetailsComponent} from "./user/user-details.component";
 /**
  * Make sure that this list is updated as and when a new Angular2 component in added to NgModule's entryComponents attribute.
  */
@@ -24,7 +26,9 @@ const componentList = {
     'search': SearchComponent,
     'ip-location': IpLocationComponent,
     'input-field': InputFieldComponent,
-    'button-component': ButtonComponent
+    'button-component': ButtonComponent,
+    'login-component': LoginComponent,
+    'user-details-component': UserDetailsComponent
 };
 
 /**

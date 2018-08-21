@@ -1,13 +1,13 @@
 import {Routes, RouterModule} from "@angular/router";
 import {ModuleWithProviders} from "@angular/core";
 
-import {TaskListComponent} from "../task-list/task-list.component";
-import {AboutComponent} from "../about/about.component";
+import {LoginComponent} from "../login/login.component";
+import {UserDetailsComponent} from "../user/user-details.component";
 
 const appRoutes: Routes = [
-    {path: '', redirectTo: 'tasks', pathMatch: 'full'},
-    {path: 'tasks', component: TaskListComponent, data: {title: 'TaskList'}},
-    {path: 'about', component: AboutComponent, data: {title: 'About'}}
+    {path : '', component : LoginComponent},
+    { path: 'login', component: LoginComponent },
+    { path: 'user-details', component: UserDetailsComponent }
 ];
 
 export const appRoutingProviders: any[] = [];
