@@ -4,4 +4,5 @@ node_modules
 typings
 .DS_Store
 target
-**/components/content/**/*.js
+src/main/content/jcr_root/apps/ngaem/components/content/**/*.js
+src/main/content/jcr_root/apps/ngaem/components/content/**/*.js.map

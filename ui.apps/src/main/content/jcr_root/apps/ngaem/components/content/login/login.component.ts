@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.invalid) {
       return;
     }
-    if(this.loginForm.controls.email.value && this.loginForm.controls.password.value) {
+    if (this.loginForm.controls.email.value && this.loginForm.controls.password.value) {
       this.authService.login(this.loginForm.controls.email.value, this.loginForm.controls.password.value)
             .pipe(first())
             .subscribe(
@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
 
                 });
 
-    }else {
+    } else {
       this.invalidLogin = true;
     }
   }
