@@ -1,5 +1,7 @@
 "use strict";
-var AnimationFrameAction_1 = require('./AnimationFrameAction');
-var AnimationFrameScheduler_1 = require('./AnimationFrameScheduler');
-exports.animationFrame = new AnimationFrameScheduler_1.AnimationFrameScheduler(AnimationFrameAction_1.AnimationFrameAction);
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("rxjs-compat/scheduler/animationFrame"));
 //# sourceMappingURL=animationFrame.js.map

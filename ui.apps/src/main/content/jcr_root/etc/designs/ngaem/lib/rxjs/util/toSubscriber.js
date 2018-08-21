@@ -1,19 +1,7 @@
 "use strict";
-var Subscriber_1 = require('../Subscriber');
-var rxSubscriber_1 = require('../symbol/rxSubscriber');
-function toSubscriber(nextOrObserver, error, complete) {
-    if (nextOrObserver) {
-        if (nextOrObserver instanceof Subscriber_1.Subscriber) {
-            return nextOrObserver;
-        }
-        if (nextOrObserver[rxSubscriber_1.$$rxSubscriber]) {
-            return nextOrObserver[rxSubscriber_1.$$rxSubscriber]();
-        }
-    }
-    if (!nextOrObserver && !error && !complete) {
-        return new Subscriber_1.Subscriber();
-    }
-    return new Subscriber_1.Subscriber(nextOrObserver, error, complete);
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-exports.toSubscriber = toSubscriber;
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("rxjs-compat/util/toSubscriber"));
 //# sourceMappingURL=toSubscriber.js.map
