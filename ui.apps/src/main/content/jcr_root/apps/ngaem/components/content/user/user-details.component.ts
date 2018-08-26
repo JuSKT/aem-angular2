@@ -5,7 +5,7 @@ import {User} from "../model/user.model";
 
 @Component({
   selector: 'app-list-user',
-  templateUrl: './user-details.component.html'
+  templateUrl: '/apps/ngaem/components/content/user/user-details.component.html'
 })
 export class UserDetailsComponent implements OnInit {
 

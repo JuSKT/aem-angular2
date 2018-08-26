@@ -6,8 +6,8 @@ import {AuthenticationService} from "../service/auth.service";
 
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  templateUrl: '/apps/ngaem/components/content/login/login.component.html',
+  styleUrls: ['/apps/ngaem/components/content/login/login.component.css']
 })
 export class LoginComponent implements OnInit {
 
