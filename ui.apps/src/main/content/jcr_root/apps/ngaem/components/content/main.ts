@@ -5,12 +5,7 @@ import { AppModule } from './ng-app/app.module';
 import { DynamicNg2Loader } from './DynamicNgLoader';
 import { ComponentRef } from '@angular/core';
 
-import {TaskListComponent} from "./task-list/task-list.component";
-import {AboutComponent} from "./about/about.component";
-import {TaskComponent} from "./task/task.component";
 import {TextAreaComponent} from "./text-area/text-area.component";
-import {SearchComponent} from "./ng-search/search.component";
-import {IpLocationComponent} from "./ip-location/ip-location.component";
 import {InputFieldComponent} from "./input-field/input-field.component";
 import {ButtonComponent} from "./buttonComponent/button.component";
 import {LoginComponent} from "./login/login.component";
@@ -20,11 +15,6 @@ import {UserDetailsComponent} from "./user/user-details.component";
  */
 const componentList = {
     'text-area': TextAreaComponent,
-    'task-list': TaskListComponent,
-    'about': AboutComponent,
-    'task': TaskListComponent,
-    'search': SearchComponent,
-    'ip-location': IpLocationComponent,
     'input-field': InputFieldComponent,
     'button-component': ButtonComponent,
     'login-component': LoginComponent,
