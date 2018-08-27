@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <formGroup
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Form Group"
+            name="./formGroup"
+            xtype="textfield"/>
+        <ngSubmit
+            jcr:primaryType="cq:Widget"
+            fieldLabel="ngSubmit function"
+            name="./ngSubmit"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

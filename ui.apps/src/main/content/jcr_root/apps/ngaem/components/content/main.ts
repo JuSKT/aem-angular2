@@ -10,6 +10,7 @@ import {InputFieldComponent} from "./input-field/input-field.component";
 import {ButtonComponent} from "./buttonComponent/button.component";
 import {LoginComponent} from "./login/login.component";
 import {UserDetailsComponent} from "./user/user-details.component";
+import {FormComponent} from "./formComponent/form.component";
 /**
  * Make sure that this list is updated as and when a new Angular2 component in added to NgModule's entryComponents attribute.
  */
@@ -18,7 +19,8 @@ const componentList = {
     'input-field': InputFieldComponent,
     'button-component': ButtonComponent,
     'login-component': LoginComponent,
-    'user-details-component': UserDetailsComponent
+    'user-details-component': UserDetailsComponent,
+	'form-component': FormComponent
 };
 
 /**

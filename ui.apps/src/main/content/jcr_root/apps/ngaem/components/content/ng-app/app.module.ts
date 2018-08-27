@@ -9,6 +9,7 @@ import {AppComponent} from "./app.component";
 import {TextAreaComponent} from "../text-area/text-area.component";
 import {InputFieldComponent} from "../input-field/input-field.component";
 import {ButtonComponent} from "../buttonComponent/button.component";
+import {FormComponent} from "../formComponent/form.component";
 import { LoginComponent } from '../login/login.component';
  import {UserDetailsComponent} from "../user/user-details.component";
  import {UserService} from "../service/user.service";
@@ -27,9 +28,10 @@ import { LoginComponent } from '../login/login.component';
         InputFieldComponent,
         ButtonComponent,
         LoginComponent,
-        UserDetailsComponent
+        UserDetailsComponent,
+		FormComponent
     ],
-    entryComponents: [AppComponent, TextAreaComponent, InputFieldComponent, ButtonComponent, LoginComponent, UserDetailsComponent],
+    entryComponents: [AppComponent, TextAreaComponent, InputFieldComponent, ButtonComponent, LoginComponent, UserDetailsComponent, FormComponent],
     providers: [
         appRoutingProviders,
         AuthenticationService, 

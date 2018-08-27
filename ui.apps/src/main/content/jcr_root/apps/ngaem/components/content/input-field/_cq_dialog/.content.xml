@@ -36,11 +36,11 @@
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
                         fieldLabel="Input Field Placeholder"
                         name="./placeholder"/>
-                    <ngModel
+                    <formControlName
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Input Field ngModal"
-                        name="./ngModel"/>
+                        fieldLabel="Form control name"
+                        name="./formControlName"/>
                     <id
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/form/textfield"

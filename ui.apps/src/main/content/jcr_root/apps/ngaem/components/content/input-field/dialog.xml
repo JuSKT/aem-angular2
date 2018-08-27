@@ -27,10 +27,10 @@
             fieldLabel="Input Field Placeholder"
             name="./placeholder"
             xtype="textfield"/>
-        <ngModel
+        <formControlName
             jcr:primaryType="cq:Widget"
-            fieldLabel="Input Field model"
-            name="./ngModel"
+            fieldLabel="Form Control Name"
+            name="./formControlName"
             xtype="textfield"/>
         <id
             jcr:primaryType="cq:Widget"

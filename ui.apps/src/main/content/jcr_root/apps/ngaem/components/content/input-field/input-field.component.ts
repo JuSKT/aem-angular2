@@ -9,7 +9,7 @@ export class InputFieldComponent implements OnInit {
 
     constructor(private elementRef: ElementRef) {
         this.placeholder = elementRef.nativeElement.getAttribute('placeholder');
-        this.ngModelValue = elementRef.nativeElement.getAttribute('ngModel');
+        this.formControlNameValue = elementRef.nativeElement.getAttribute('formControlName');
         this.inputId = elementRef.nativeElement.getAttribute('id');
         this.inputClass = elementRef.nativeElement.getAttribute('class');
         this.typeSelection = elementRef.nativeElement.getAttribute('type');
